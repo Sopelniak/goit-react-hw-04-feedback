@@ -1,0 +1,24 @@
+.button {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+
+.good {
+  composes: button;
+  background-color: green;
+}
+
+.neutral {
+  composes: button;
+  background-color: orange;
+}
+
+.bad {
+  composes: button;
+  background-color: red;
+}

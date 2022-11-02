@@ -1,0 +1,28 @@
+.list {
+  padding-left: 10px;
+  list-style: none;
+  font-size: 18px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 8px;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.total {
+  composes: item;
+  background-color: rgb(195, 245, 255);
+}
+
+.positive {
+  composes: item;
+  background-color: rgb(255, 214, 78);
+}
+
+span {
+  font-weight: 700;
+}
